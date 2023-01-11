@@ -1,0 +1,18 @@
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  margin-top: 0px;
+  padding: 0;
+  background-color: #121210;
+  width: 1590px;
+}
+
+*{
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+

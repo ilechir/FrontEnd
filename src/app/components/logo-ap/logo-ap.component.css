@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -15px;
+}
+#logoap{
+  width: 150px;
+  margin-left: 25px;
+}
+
+#linkedin{
+  width: 40px;
+  padding: 10px;
+
+}
+#facebook{
+  width: 40px;
+  padding: 10px;
+}
+#github{
+  width: 45px;
+  padding: 10px;
+}
+#instagram{
+  width: 42px;
+  padding: 10px;
+}
+#twitter{
+  width: 39px;
+  padding: 8px;
+  margin-right: 5px;
+
+}
+
+/*--- Vista Para Celulares ---*/
+@media  (max-width: 575px){
+.container{
+  flex-direction: column;
+}
+.redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}

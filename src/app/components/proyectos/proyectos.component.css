@@ -1,0 +1,23 @@
+.row{
+  padding: 30px;
+  margin: 0;
+  margin-left: 45px;
+  color: aliceblue;
+  background-color: #121210;
+}
+h3 , p{
+  margin-left: 45px;
+}
+.contenedor{
+  width: auto;
+}
+.parte1, .parte2{
+  display: inline-block;
+  text-align: justify;
+}
+.img-proyecto{
+  box-shadow: 10px 10px 30px #110e58;
+  border-radius: 5%;
+
+}
+
