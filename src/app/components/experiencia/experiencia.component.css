@@ -1,18 +1,16 @@
-* {
+.row{
   margin: 0;
   padding: 0;
   background-color: #121210;
-  color:aliceblue;
 }
-.row{
-  padding: 10px;
-}
+
 h2, h3 {
   display: inline;
 }
-h1{
-  margin: 20px;
-  margin-left: 70px;
+h1, tbody{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color:aliceblue;
 }
 
 @media (max-width: 450px){
@@ -21,6 +19,5 @@ h1{
     margin-left: 5px;
   }
 }
-.table{
-  margin: 10px;
-}
+
+
