@@ -23,6 +23,10 @@ import { NeweducacionComponent } from './components/educacion/new-educacion.comp
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 import { EditSkillComponent } from './components/hardandsoft/edit-skill.component';
 import { NewSkillComponent } from './components/hardandsoft/new-skill.component';
+import { EditAcercadeComponent } from './components/acercade/edit-acercade.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
@@ -44,6 +48,7 @@ import { NewSkillComponent } from './components/hardandsoft/new-skill.component'
     EditEducacionComponent,
     EditSkillComponent,
     NewSkillComponent,
+    EditAcercadeComponent,
   ],
   imports: [
     FormsModule,
@@ -53,7 +58,9 @@ import { NewSkillComponent } from './components/hardandsoft/new-skill.component'
       "unitsColor": "#ffffff",
       "titleColor": "#ffffff",
       "subtitleColor": "#ffffff"}),
-    HttpClientModule
+    HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
 
   ],
   providers: [interceptorProvider],
