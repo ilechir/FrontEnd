@@ -33,7 +33,7 @@ export class EditAcercadeComponent implements OnInit {
   uploadImage($event:any){
     const id = this.activatedRouter.snapshot.params['id'];
     const nombre = "perfil_" + id;
-    this.imgService.uploadIamge($event, nombre)
+    this.imgService.uploadImage($event, nombre)
   }
 
 

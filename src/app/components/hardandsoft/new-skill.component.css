@@ -1,0 +1,9 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    background: -webkit-linear-gradient(to right, #f0e38a, #7cbdd1);
+    
+   
+    background-image: linear-gradient( #f362bb, #f0e38a , #7cbdd1 );
+}

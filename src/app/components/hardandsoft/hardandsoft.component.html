@@ -26,9 +26,10 @@
       <td *ngIf="isLogged"> <button class="btn btn-outline-success px-3" routerLink="/editSKILL/{{skill.id}}"  >
        <i class="bi bi-pencil-fill"></i> EDITAR</button>
       </td>
-
+      <br>
       <td *ngIf="isLogged"><button class="btn btn-outline-danger px-3" (click)="delete(skill.id)" >
         <i class="bi bi-trash-fill" ></i> BORRAR</button>
       </td>
+
   </div>
 </div>
