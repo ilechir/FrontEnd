@@ -7,3 +7,8 @@
    
     background-image: linear-gradient( #f362bb, #f0e38a , #7cbdd1 );
 }
+.card{
+    border-radius: 1rem;
+    background-color: #121210;
+    color: aliceblue;
+  }

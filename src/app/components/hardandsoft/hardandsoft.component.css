@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #121210;
+  
 }
 
 h2, h3 {
@@ -12,4 +13,12 @@ h1, tbody{
   margin-top: 30px;
   margin-bottom: 20px;
   color:aliceblue;
+}
+.btn{
+  margin: 3px;
+}
+.circle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

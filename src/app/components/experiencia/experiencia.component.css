@@ -12,6 +12,9 @@ h1, tbody{
   margin-bottom: 25px;
   color:aliceblue;
 }
+.table{
+  margin-top: 30px;
+}
 
 @media (max-width: 450px){
   h1 {

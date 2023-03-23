@@ -1,9 +1,9 @@
 .row{
-  padding: 30px;
+  padding: 0px;
   margin: 0;
-  margin-left: 45px;
   color: aliceblue;
-  background-color: #121210;
+  margin-top: 50px;
+
 }
 h3 , p{
   margin-left: 45px;

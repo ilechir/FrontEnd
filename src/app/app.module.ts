@@ -56,7 +56,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
       "unitsColor": "#ffffff",
-      "titleColor": "#ffffff",
+      "titleColor": "#f0f8ff",
       "subtitleColor": "#ffffff"}),
     HttpClientModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
