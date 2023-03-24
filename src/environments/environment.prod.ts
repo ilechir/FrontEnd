@@ -8,7 +8,7 @@ export const environment = {
     authDomain: 'frontend-ic.firebaseapp.com',
     messagingSenderId: '642564363177',
   },
-  production: true
+  production: true,
 
-  //URL: 'https://portfolio-ic.onrender.com/'
-};
+  URL: 'https://portfolio-ic.onrender.com/'
+}
