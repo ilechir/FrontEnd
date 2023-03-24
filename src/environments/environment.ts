@@ -13,8 +13,7 @@ export const environment = {
     messagingSenderId: '642564363177',
   },
   production: false,
-
-  URL: 'https://portfolio-ic.onrender.com/'
+  URL: 'http://localhost:8080/'
 }
 /*
  * For easier debugging in development mode, you can import the following file
