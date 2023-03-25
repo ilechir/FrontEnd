@@ -58,10 +58,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
       "unitsColor": "#ffffff",
       "titleColor": "#f0f8ff",
       "subtitleColor": "#ffffff"}),
-    HttpClientModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage())
-
+    HttpClientModule
   ],
   providers: [interceptorProvider],
   bootstrap: [AppComponent]

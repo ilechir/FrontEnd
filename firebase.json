@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "y",
+    "public": "dist/proyector-integrador-ci",
     "ignore": [
       "firebase.json",
       "**/.*",
